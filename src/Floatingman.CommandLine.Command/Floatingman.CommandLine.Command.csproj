@@ -1,18 +1,19 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-      <ProjectReference
-         Include="..\..\src\Floatingman.CommandLineParser\Floatingman.CommandLineParser.csproj">
+    <PackageReference Include="Floatingman.CommandLineParser" Version="0.2.5">
       <Private>false</Private>
       <ExcludeAssets>runtime</ExcludeAssets>
-    </ProjectReference>
-      <ProjectReference
-         Include="..\Floatingman.TopologyFunctions\Floatingman.TopologyFunctions.csproj" />
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Floatingman.TopologyFunctions\Floatingman.TopologyFunctions.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
       <TargetFramework>net7.0</TargetFramework>
-      <!-- <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies> -->
+    <!-- <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies> -->
   </PropertyGroup>
 
 </Project>

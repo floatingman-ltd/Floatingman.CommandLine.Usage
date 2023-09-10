@@ -3,6 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Floatingman.CommandLine.Application", "src\Floatingman.CommandLine.Application\Floatingman.CommandLine.Application.csproj", "{BCACAE76-1D56-4379-A813-6871BF1820F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Floatingman.CommandLine.Command", "src\Floatingman.CommandLine.Command\Floatingman.CommandLine.Command.csproj", "{70415208-1735-4B63-A287-BFBEE64260FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Floatingman.TopologyFunctions", "src\Floatingman.TopologyFunctions\Floatingman.TopologyFunctions.csproj", "{18565A09-6EF4-4B09-96AA-D8CF5619CFD5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +16,19 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCACAE76-1D56-4379-A813-6871BF1820F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCACAE76-1D56-4379-A813-6871BF1820F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCACAE76-1D56-4379-A813-6871BF1820F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCACAE76-1D56-4379-A813-6871BF1820F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70415208-1735-4B63-A287-BFBEE64260FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70415208-1735-4B63-A287-BFBEE64260FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70415208-1735-4B63-A287-BFBEE64260FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70415208-1735-4B63-A287-BFBEE64260FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18565A09-6EF4-4B09-96AA-D8CF5619CFD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18565A09-6EF4-4B09-96AA-D8CF5619CFD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18565A09-6EF4-4B09-96AA-D8CF5619CFD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18565A09-6EF4-4B09-96AA-D8CF5619CFD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
